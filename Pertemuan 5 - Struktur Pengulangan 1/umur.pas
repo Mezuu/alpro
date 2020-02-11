@@ -5,6 +5,7 @@ u17, u18, u19, u20, ux, u, n, i: integer;
 
 begin
     write('Masukkan jumlah mahasiswa : '); readln(n);
+    if n <= 0 then writeln('Maaf ya kita temenan aja') else
     repeat
     i:= i+1;
         write('Masukkan umur mahasiswa ke-', i, ' : '); readln(u);
